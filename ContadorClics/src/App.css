@@ -1,0 +1,43 @@
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+ html,
+ body {
+  background-color: rgb(32, 32, 32);
+ }
+
+ .App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  font-family: 'Times New Roman', Times, serif;
+ }
+
+ .logo-container{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ }
+
+ .react-logo {
+  height: 100px;
+  margin-block-end: 0px;
+  
+ }
+
+ .main-container {
+    height: 550px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
